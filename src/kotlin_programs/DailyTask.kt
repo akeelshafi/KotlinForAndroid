@@ -24,7 +24,14 @@ fun main(){
     akeel.wakeUp()
     akeel.bath()
     akeel.ready()
-    akeel.study()
     akeel.backToHome()
+
+    println("===========================================================================")
+
+    val furkan = DailyTask()
+    furkan.wakeUp()
+    furkan.ready()
+    furkan.study()
+    furkan.backToHome()
 
 }
