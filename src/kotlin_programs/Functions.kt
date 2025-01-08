@@ -5,7 +5,9 @@ fun main(){
   /*  val a = task2(10,20)
     println(a)*/
 
-    println(task3())
+   // println(task3())
+    print( task4(10,20))
+
 }
 
 /*
@@ -38,6 +40,12 @@ fun task(){
     val b = 20
     val c = a+b
     return c
-
-
 }*/
+
+// function with parameter and return type
+
+fun task4(a:Int,b:Int):Int{
+    val c = a+b
+    return c
+
+}
